@@ -1,4 +1,4 @@
-const PRODUCTION_API = "https://multivendor-ybbe.onrender.com/api/v1";
+const PRODUCTION_API = "https://multivendor-fmqp.onrender.com/api/v1";
 const DEVELOPMENT_API = "http://localhost:5000/api/v1";
 
 export const API_BASE_URL =
