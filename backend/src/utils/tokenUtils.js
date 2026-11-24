@@ -4,8 +4,8 @@ const jwt = require("jsonwebtoken");
 // Generate Access Token (short-lived: 15 min)
 // ────────────────────────────────────────────────
 const generateAccessToken = (userId) => {
-  return jwt.sign({ id: userId }, process.env.JWT_ACCESS_SECRET, {
-    expiresIn: process.env.JWT_ACCESS_EXPIRE || "15m",
+  return jwt.sign({ id: userId }, process.env.JWT_SECRET, {
+    expiresIn: process.env.JWT_EXPIRE || "15m",
   });
 };
 

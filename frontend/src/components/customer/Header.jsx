@@ -105,7 +105,7 @@ useEffect(() => {
           <div className="flex items-center gap-6">
             <Link href="/" className="flex items-center gap-1.5 font-extrabold text-xl sm:text-2xl text-slate-900 dark:text-white">
               <span className="text-orange-500">🛍️</span>
-              <span>Malti<span className="text-orange-500 font-medium">Vendor</span></span>
+              <span>Multi<span className="text-orange-500 font-medium">Vendor</span></span>
             </Link>
 
             {/* Mega Menu Toggle */}

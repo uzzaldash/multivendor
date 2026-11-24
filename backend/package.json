@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "seed:admin": "node src/controllers/supperAdmin.js",
+  "seed:admin:delete": "node src/seeders/adminSeeder.js --delete"
   },
   "keywords": [],
   "author": "",

@@ -110,11 +110,11 @@ export default function Footer() {
               </p>
               <p className="flex items-center gap-2.5">
                 <Phone className="w-5 h-5 text-orange-500 flex-shrink-0" />
-                <span>+880 1794 000000</span>
+                <span>+880 1758755565</span>
               </p>
               <p className="flex items-center gap-2.5">
                 <Mail className="w-5 h-5 text-orange-500 flex-shrink-0" />
-                <span>support@maltivendor.com</span>
+                <span>uzzal@maltivendor.com</span>
               </p>
             </div>
           </div>
